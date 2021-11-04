@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test post
+title: Subscription Management app
 subtitle: Initial post for testing purposes
 tags: [test]
 comments: true
@@ -45,33 +45,31 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-### Here is part of my code for the subscription management app in Java:
+### Here is part of my code that displays the subscriptions and calculates the monthly total:
 
 ```java
 for (DataSnapshot childSnapshot : dataSnapshot.getChildren()) {
+      String name = childSnapshot.child("name").getValue(String.class);
+      String frequency = childSnapshot.child("frequency").getValue(String.class);
 
-                        String name = childSnapshot.child("name").getValue(String.class);
-                        String frequency = childSnapshot.child("frequency").getValue(String.class);
+      try{
+          //format price number so that it is in the Double form
+          Double amountTemp = Double.valueOf(formattedTotal.format(Double.valueOf
+                  (childSnapshot.child("price").getValue(String.class))));
 
-                        try{
-                            //format price number so that it is in the Double form
-                            Double amountTemp = Double.valueOf(formattedTotal.format(Double.valueOf
-                                    (childSnapshot.child("price").getValue(String.class))));
-
-                            //Calculate the monthly cost of each subscription
-                            if (frequency.equals("Yearly")){
-                                amountTemp = amountTemp/12;
-                            }
-                            else if (frequency.equals("Every 6 months")){
-                                amountTemp = amountTemp/6;
-                            }
-                            else if (frequency.equals("Every 3 months")){
-                                amountTemp = amountTemp/3;
-                            }
-
-                            total = total + amountTemp; // calculate the monthly total of the subscriptions
-                            subscriptions.add(name);
-                        }
+          //Calculate the monthly cost of each subscription
+          if (frequency.equals("Yearly")){
+              amountTemp = amountTemp/12;
+          }
+          else if (frequency.equals("Every 6 months")){
+              amountTemp = amountTemp/6;
+          }
+          else if (frequency.equals("Every 3 months")){
+              amountTemp = amountTemp/3;
+          }
+          total = total + amountTemp; // calculate the monthly total of the subscriptions
+          subscriptions.add(name);
+      }
 ```
 
 And here is the same code yet again but with line numbers:
