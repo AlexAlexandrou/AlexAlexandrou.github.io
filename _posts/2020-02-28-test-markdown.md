@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Test post
+subtitle: Initial post for testing purposes
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
@@ -41,13 +41,33 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-And here is the same code with syntax highlighting:
+Here is part of my code for the subscription management app in Java:
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+```java
+for (DataSnapshot childSnapshot : dataSnapshot.getChildren()) {
+
+                        String name = childSnapshot.child("name").getValue(String.class);
+                        String frequency = childSnapshot.child("frequency").getValue(String.class);
+
+                        try{
+                            //format price number so that it is in the Double form
+                            Double amountTemp = Double.valueOf(formattedTotal.format(Double.valueOf
+                                    (childSnapshot.child("price").getValue(String.class))));
+
+                            //Calculate the monthly cost of each subscription
+                            if (frequency.equals("Yearly")){
+                                amountTemp = amountTemp/12;
+                            }
+                            else if (frequency.equals("Every 6 months")){
+                                amountTemp = amountTemp/6;
+                            }
+                            else if (frequency.equals("Every 3 months")){
+                                amountTemp = amountTemp/3;
+                            }
+
+                            total = total + amountTemp; // calculate the monthly total of the subscriptions
+                            subscriptions.add(name);
+                        }
 ```
 
 And here is the same code yet again but with line numbers:
