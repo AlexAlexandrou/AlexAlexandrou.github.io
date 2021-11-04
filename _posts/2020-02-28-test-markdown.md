@@ -12,10 +12,10 @@ This app allows the users to:
 * View the added subscriptions and their details
 * Edit the subscriptions
 * View the total amount they spend on subscriptions:
- * Monthly
- * Every 3 months
- * Every 6 months
- * Annually   
+  * Monthly
+  * Every 3 months
+  * Every 6 months
+  * Annually   
 
 ## Here is a secondary heading
 
