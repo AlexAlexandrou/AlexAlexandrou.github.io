@@ -1,12 +1,21 @@
 ---
 layout: post
 title: Subscription Management app
-subtitle: Initial post for testing purposes
+subtitle: Mobile app created as part of my Final Year Project
 tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+This post contains information regarding the Subscription Management app that I created as my final year project. It also provides some code snippets to show its technical aspects.  
+This app allows the users to:  
+* Add subscriptions
+* View the added subscriptions and their details
+* Edit the subscriptions
+* View the total amount they spend on subscriptions:
+ * Monthly
+ * Every 3 months
+ * Every 6 months
+ * Annually   
 
 ## Here is a secondary heading
 
@@ -20,19 +29,19 @@ Here's a useless table:
 | Two | Three | One |
 
 
-Home Screen
+## Home Screen
 
 ![image](/assets/img/New Home Screen (Green).PNG){: .mx-auto.d-block :}
 
-Add a subscription screen
+## Add a subscription screen
 
 ![image](/assets/img/new-add-sub.png){: .mx-auto.d-block :}
 
-Subscription information screen
+## Subscription information screen
 
 ![image](/assets/img/New Sub Info.PNG){: .mx-auto.d-block :}
 
-Settings screen
+## Settings screen
 
 ![image](/assets/img/Settings.PNG){: .mx-auto.d-block :}
 
