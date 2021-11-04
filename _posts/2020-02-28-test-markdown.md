@@ -8,8 +8,6 @@ comments: true
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
-**Here is some bold text**
-
 ## Here is a secondary heading
 
 Here's a useless table:
@@ -22,13 +20,21 @@ Here's a useless table:
 | Two | Three | One |
 
 
-Home Screen of the app
+Home Screen
 
-![image](/assets/img/New Home Screen (Green).PNG)
+![image](/assets/img/New Home Screen (Green).PNG){: .mx-auto.d-block :}
 
-It can also be centered!
+Add a subscription screen
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
+![image](/assets/img/new-add-sub.png){: .mx-auto.d-block :}
+
+Subscription information screen
+
+![image](/assets/img/New Sub Info.PNG){: .mx-auto.d-block :}
+
+Settings screen
+
+![image](/assets/img/Settings.PNG){: .mx-auto.d-block :}
 
 Here's a code chunk:
 
@@ -39,7 +45,7 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-Here is part of my code for the subscription management app in Java:
+### Here is part of my code for the subscription management app in Java:
 
 ```java
 for (DataSnapshot childSnapshot : dataSnapshot.getChildren()) {
