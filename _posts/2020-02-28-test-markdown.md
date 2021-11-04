@@ -2,8 +2,6 @@
 layout: post
 title: Test post
 subtitle: Initial post for testing purposes
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
@@ -24,7 +22,7 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+Home Screen of the app
 
 ![image](/assets/img/New Home Screen (Green).PNG)
 
