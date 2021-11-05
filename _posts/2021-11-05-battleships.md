@@ -10,7 +10,7 @@ This is a university project in which the classic board game "Battleships" is ad
 
 ## Home screen
 
-![image](/assets/img/home-screen.png){: .mx-auto.d-block :}
+![image](/assets/img/home-screen.PNG){: .mx-auto.d-block :}
 
 ## Ship placement screen
 
