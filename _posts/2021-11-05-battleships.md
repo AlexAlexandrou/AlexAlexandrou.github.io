@@ -12,6 +12,8 @@ This is a university project in which the classic board game "Battleships" is ad
 
 ![image](/assets/img/home-screen.PNG){: .mx-auto.d-block :}
 
+This is the screen the user sees when they launch the game.
+
 ## Ship placement screen
 
 ![image](/assets/img/place-fleet.PNG){: .mx-auto.d-block :}
@@ -24,3 +26,11 @@ The user can select a specific ship to place onto the grid (selection on the lef
 ## Gameplay/Fight screen
 
 ![image](/assets/img/fight-screen.PNG){: .mx-auto.d-block :}
+
+The game alternates turns between the user and their enemy. The enemy guesses can be displayed at the top left on the screen.  
+The tiles in the grid turn to different colours based on the guess:
+* Grey: Miss
+* Red: Hit
+* Blue: Ship destroyed
+
+The game ends when either the friendly or enemy ships are destroyed and the user is transferred to the Home Screen.
