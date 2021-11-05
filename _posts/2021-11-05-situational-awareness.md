@@ -2,7 +2,7 @@
 layout: post
 title: Cyberthreat and Vulnerability awareness for Smart Cities
 subtitle: Visualizations providing threat intelligence for Smart Cities
-tags: [Java, Android]
+tags: [Splunk, Cybersecurity, IoT]
 cover-img: /assets/img/background-grid.PNG
 thumbnail-img: /assets/img/custom_grid.png
 share-img: /assets/img/custom_grid.png
