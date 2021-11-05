@@ -3,9 +3,9 @@ layout: post
 title: Battleships game
 subtitle: Adaptation of the Battleships game as an Android app
 tags: [Java, Android]
-cover-img: /assets/img/custom-grid.jpg
-thumbnail-img: /assets/img/custom-grid.png
-share-img: /assets/img/custom-grid.jpg
+cover-img: /assets/img/custom_grid.jpg
+thumbnail-img: /assets/img/custom_grid.png
+share-img: /assets/img/custom_grid.jpg
 comments: true
 ---
 
