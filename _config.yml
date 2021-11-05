@@ -37,7 +37,7 @@ round-avatar: true
 social-network-links:
   email: "alex.ch.alexandrou@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  linkedin: linkedin.com/in/alexandros-alexandrou-454531217
+  linkedin: /alexandros-alexandrou-454531217
   github: AlexAlexandrou  
 
 
