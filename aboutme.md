@@ -9,5 +9,3 @@ My name is Alexandros Alexandrou, a recent university graduate with a passion in
 
 - BSc Computing at Bournemouth University
 - MSc Cyber Security and Human Factors at Bournemouth University
-
-What else do you need?
