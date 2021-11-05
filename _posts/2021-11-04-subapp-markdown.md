@@ -6,6 +6,7 @@ tags: [Java, Project]
 comments: true
 ---
 
+## App summary
 This post contains information regarding the Subscription Management app that I created as my final year project. It also provides some code snippets to show its technical aspects.  
 This app allows the users to:  
 * Add subscriptions
@@ -15,35 +16,34 @@ This app allows the users to:
   * Monthly
   * Every 3 months
   * Every 6 months
-  * Annually   
+  * Annually
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Additionally, Firebase was used as the database to store the different subscription entries.
 
 
 ## Home Screen
 
 ![image](/assets/img/New Home Screen (Green).PNG){: .mx-auto.d-block :}
 
+
+
 ## Add a subscription screen
 
 ![image](/assets/img/new-add-sub.png){: .mx-auto.d-block :}
+
+
 
 ## Subscription information screen
 
 ![image](/assets/img/New Sub Info.PNG){: .mx-auto.d-block :}
 
+
+
 ## Settings screen
 
 ![image](/assets/img/Settings.PNG){: .mx-auto.d-block :}
+
+
 
 Here's a code chunk:
 
