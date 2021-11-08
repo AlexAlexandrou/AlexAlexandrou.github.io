@@ -46,15 +46,6 @@ Additionally, Firebase was used as the database to store the different subscript
 
 
 
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
 ### Here is part of my code that displays the subscriptions and calculates the monthly total:
 
 ```java
@@ -138,30 +129,3 @@ else{
     startActivity(intent);
 }
 ```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
