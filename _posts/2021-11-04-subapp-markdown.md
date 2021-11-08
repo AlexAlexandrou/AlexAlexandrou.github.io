@@ -2,6 +2,7 @@
 layout: post
 title: Subscription Management app
 subtitle: Mobile app created as part of my Final Year Project
+thumbnail-img: /assets/img/sub-management.jpg
 tags: [Java, Android]
 comments: true
 ---
