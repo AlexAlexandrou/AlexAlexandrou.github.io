@@ -16,7 +16,6 @@ The visualizations vary from each other and are placed on different dashboards:
 
 Additionally, dashbaords containing visualizations about specific assets were also created:
 * Selected City
-* Selected Country
 * Selected Vulnerability
 
 ## Countries Dashbaord
@@ -24,8 +23,6 @@ Additionally, dashbaords containing visualizations about specific assets were al
 ## Cities Dashbaord
 
 ## Vulnerabilities Dashbaord
-
-## Selected Country Dashbaord
 
 ## Selected City Dashbaord
 
