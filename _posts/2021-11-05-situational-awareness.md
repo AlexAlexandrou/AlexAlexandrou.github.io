@@ -57,5 +57,5 @@ This example shows "London" as the selected City.
 Similarly to the Selected City dashbaord, this one can be accessed by selected a vulnerability from the main dashboards. It shows its details at the top followed by its exploitable attacks and the protocols it violates. Following all its details and properties, it displays all the cities that are affected by it.
 
 {: .box-note}
-If a user clicks on the vulnerability on the first panel, they are transferred to NIST's National Vulnerability Database where additional details about it can be found as well as different references where its credibility can be assessed
+**If a user clicks on the vulnerability on the first panel, they are transferred to NIST's National Vulnerability Database where additional details about it can be found as well as different references where its credibility can be assessed**
 
