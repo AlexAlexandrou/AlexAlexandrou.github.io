@@ -38,4 +38,4 @@ The tiles in the grid turn to different colours based on the guess:
 
 The game ends when either the friendly or enemy ships are destroyed and the user is transferred to the Home Screen.  
 
-You can find the code of this project [here.](https://github.com/AlexAlexandrou/battleships-app)
+You can find the code of this project [here.](https://github.com/AlexAlexandrou/battleships-app){:target="_blank"}

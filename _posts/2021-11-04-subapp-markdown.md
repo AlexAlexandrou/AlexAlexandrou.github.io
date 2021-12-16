@@ -44,4 +44,4 @@ Additionally, Firebase was used as the database to store the different subscript
 
 ![image](/assets/img/Settings.PNG){: .mx-auto.d-block :}  
 
-You can find the code of this project [here.](https://github.com/AlexAlexandrou/subscription-management-app)
+You can find the code of this project [here.](https://github.com/AlexAlexandrou/subscription-management-app){:target="_blank"}
