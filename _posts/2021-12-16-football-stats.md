@@ -9,7 +9,11 @@ comments: true
 ---
 
 In this project, ***Selenium*** is used to scrape football data and store it into csv files. Additionally, ***Pandas*** is used to organize the scraped data into the csv files and display them clearly to the user.  
-The program consists of 8 functions which the user can choose from:  
+The program consists of 8 functions which the user can choose from as shown in the image below.  
+
+![image](/assets/img/FootballStats_home.png){: .mx-auto.d-block :}  
+
+## Function Guide:  
 
 0. **Scrape_All_Leagues**: All the data about the match results and upcoming matches of each country are scraped and stored into a csv file.
     - **Note**: This function should be executed first in order to download the data needed to execute the offline functions.  
@@ -28,4 +32,3 @@ The program consists of 8 functions which the user can choose from:
 6. **Get_Upcoming_Matches**: Similarly to UpcomingLeagueMatches, it retrieves the upcoming matches of a specific country but from the local data that was scraped already. The user can also filter the results to show only a specific team's upcoming matches.  
 
 7. **Get_Team_Stats**: Similarly to CountryTeamMatches, it retrieves the win/lose ratio data of each team in a country, which is selected from the user. The difference is that it does so from the data that was scraped already. If the data was not scraped previously, the user is asked if they want to do so.
-<br></br>
