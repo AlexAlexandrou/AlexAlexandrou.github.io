@@ -17,7 +17,7 @@ The program consists of 8 functions which the user can choose from as shown in t
 
 0. **Scrape_All_Leagues**: All the data about the match results and upcoming matches of each country are scraped and stored into a csv file.
     - **Note**: This function should be executed first in order to download the data needed to execute the offline functions.  
-<br/><br/>
+    
 
 1. **Update_League**: Similar to All_leagues, it gets all the league data but only for a specific country, which is selected by the user.  
 
